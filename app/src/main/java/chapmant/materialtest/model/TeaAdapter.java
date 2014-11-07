@@ -15,7 +15,7 @@ import chapmant.materialtest.R;
  */
 public class TeaAdapter extends RecyclerView.Adapter<TeaAdapter.ViewHolder> {
 
-    private String[] mDataset;
+    private String[] mDataset = {"Tea1", "Tea2", "Tea3"};
 
     // Provide a reference to the views for each data item
     // Complex data items may need more than one view per item, and
@@ -36,9 +36,7 @@ public class TeaAdapter extends RecyclerView.Adapter<TeaAdapter.ViewHolder> {
     }
 
     public TeaAdapter() {
-        mDataset = new String[20];
-        mDataset[0] = "1";
-        mDataset[1] = "2";
+        // DOES NOTHING
     }
 
     @Override
